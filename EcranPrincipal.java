@@ -4,37 +4,34 @@ import java.util.*;
 /**
  * 
  */
-public class EcranJeu extends Ecran {
+public class EcranPrincipal extends Ecran {
 
     /**
      * Default constructor
      */
-    public EcranJeu() {
+    public EcranPrincipal() {
     }
 
     /**
      * 
      */
-    public int mode;
+    public Trapeze tabTrapeze;
 
     /**
      * 
      */
-    public boolean phare;
+    public int tabAbscisse;
 
     /**
      * 
      */
-    public boolean timer;
-
-
-
+    public int tabOrdonnee;
 
 
     /**
-     * @param mode
+     * 
      */
-    public void EcranJeu(int mode) {
+    public void EcranPrincipal() {
         // TODO implement here
     }
 

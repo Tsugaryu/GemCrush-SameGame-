@@ -1,30 +1,44 @@
-import java.util.Random;
 
-import java.util.TimerTask;
+import java.util.*;
 
+/**
+ * 
+ */
 public class Phare extends TimerTask {
-    private int x;
-    private int y;
-    private Socle s;
-    public Phare(int x,int y,Socle grille ){
-        
-        this.x=Phare.genererCoordonneeSocle(x);
-        this.y=Phare.genererCoordonneeSocle(y);
-        this.s= grille;
-         Recursion.parcoursPhare(this.s.Grille[this.x][this.y],this.y,this.x,this.s);
+
+    /**
+     * Default constructor
+     */
+    public Phare() {
     }
-    public static int genererCoordonneeSocle(int dim){
-        //chercher le moyen de repeter a intervalle regulier la fonction
-        Random generateur=new Random();
-        int valeur= generateur.nextInt(dim+1-1);
-        return valeur;
+
+
+
+    /**
+     * @param x 
+     * @param y 
+     * @param grille
+     */
+    public void Phare(int x, int y, Socle grille) {
+        // TODO implement here
     }
-    @Override 
-    public void run(){
-         if(Fin.end(this.s)==false){
-                this.x=Phare.genererCoordonneeSocle(x);
-                this.y=Phare.genererCoordonneeSocle(y);
-         }
-         Recursion.parcoursPhare(this.s.Grille[this.x][this.y],this.y,this.x,this.s);
+
+    /**
+     * @param x 
+     * @param y 
+     * @return
+     */
+    public void genererCoordonneeSocle(int x, int y) {
+        // TODO implement here
+        return null;
     }
+
+    /**
+     * @return
+     */
+    public void run() {
+        // TODO implement here
+        return null;
+    }
+
 }
