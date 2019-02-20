@@ -1,4 +1,4 @@
-import javax.swing.JComponent;
+/*import javax.swing.JComponent;
 
 import javax.swing.JFrame;
 
@@ -54,7 +54,7 @@ public class EcranPhare extends JFrame{
 
           Socle Grille=new Socle(10,15);//déclaration de la grille qui permet de remplir les valeurs à vérifier
 
-          Grille.remplissageAleatoire(Grille);//On remplit la grille 
+          Grille.remplissageAleatoire(Grille);//On remplit la grille
 
           etiquette.setText("Score:");
 
@@ -82,3 +82,4 @@ public class EcranPhare extends JFrame{
   this.setVisible(true);
     }
 }
+*/
